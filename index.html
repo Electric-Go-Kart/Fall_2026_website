@@ -1,0 +1,658 @@
+<!DOCTYPE HTML>
+<!--
+	Stellar by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+	
+	Edited By:	Cameron Robbins
+	Date:		9/21/22
+
+	Edited By: Aspen Coates
+	Date : 09/18/24
+
+	Edited By: Paul Brotelande
+	Date : 09/24/25
+
+-->
+<html>
+
+<head>
+	<title>Electric Go-Kart</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<noscript>
+		<link rel="stylesheet" href="assets/css/noscript.css" />
+	</noscript>
+	<style>
+		.team-member-image {
+			width: 400px;
+			height: 400px;
+			object-fit: cover;
+			max-width: 100%;
+		}
+	</style>
+	<style>
+		.timeline-controls {
+			display: flex;
+			justify-content: center;
+			gap: 10px;
+			/* spacing between buttons */
+			margin-bottom: 20px;
+		}
+
+		.timeline-controls button {
+			padding: 1px 20px;
+			border: none;
+			background-color: #f7f7f7;
+			cursor: pointer;
+			transition: background-color 0.3s ease;
+		}
+
+		.timeline-controls button:hover {
+			background-color: #e0e0e0;
+		}
+	</style>
+</head>
+
+<body class="is-preload">
+
+	<!-- Wrapper -->
+	<div id="wrapper">
+
+		<!-- Header -->
+		<header id="header" class="alt">
+			<!-- <span class="logo"><img src="images/logo.svg" alt="" /></span> -->
+			<h1>Electric Go-Kart</h1>
+			<p><b>Team Members:</b> Kyle Blain, Mitchell Ahrens, Nic DeLazzer, Sam Gibson, 
+				Joshua Weisner, Gray Woodson, Connor Bartnick, Dustin Dayer, Jacob Hanson, Ethan Smith<br>
+				<b>Supervising Professor:</b> Olivera Notaros<br>
+				<b>Engineer in Residence:</b> Doug Bartlett, Charlie Potter
+			</p>
+		</header>
+
+		<!-- Nav -->
+		<nav id="nav">
+			<ul>
+				<li><a href="#home" class="active">Home</a></li>
+				<li><a href="#our-team">Our Team</a></li>
+				<li><a href="#project-timeline">Project Timeline</a></li>
+
+				<li><a href="#future-works">Future Works</a></li>
+				<li><a href="#pictures">Pictures</a></li>
+				<li><a href="#documents">Documents</a></li>
+				<li><a href="#acknowledgements">Acknowledgements</a></li>
+				<li></li>
+			</ul>
+		</nav>
+
+		<!-- Main -->
+		<div id="main">
+
+			<!-- Introduction -->
+			<section id="home" class="main">
+				<div class="spotlight">
+					<div class="content">
+
+						<center><img src="images/Spring2026Team.jpg" style="max-width: 80%;" /></center>
+
+						<header class="major">
+							<h2>Abstract</h2>
+						</header>
+						<p>We are a team of senior Electrical and Computer Engineers and underclassmen who are using
+							modern technologies to
+							showcase high levels of applied fundamental problem solving to prospective students. The
+							highly
+							technical Ekart demonstrates the seamless integration of various core concepts from each of
+							the
+							engineering departments. The electrical engineers incorporate their skills of wiring and
+							coding
+							to the cart through the addition of electric powered motors that are controlled using
+							python.
+							The computer engineers bring new and improved topics like integrating machine learning with
+							autonomous pedestrian recognition. The computer engineers and electrical engineers work
+							closely
+							together to ensure successful communication between the computer and the components of the
+							cart.
+							The mechanicals bring their experience of design and machining to create a stable body to
+							house
+							the electrical and computer components. Mechanicals also assemble the cart to improve the
+							overall
+							functionality and aesthetic of the electric cart. Together, all of the engineering
+							concentrations
+							work together to ensure the safety of both the cart and the rider. This years team is moving
+							forward
+							with taking on the immense task of recovering and rebuilding the Ekart with all the legacy
+							documentation and with updated safety features and considerations.
+							<br </p>
+
+						<header class="major">
+							<h2>Importance</h2>
+						</header>
+						<p>This is an ECE Outreach project meant to showcase some of the capabilities of engineering to
+							potential future
+							students. The E-kart contains various examples of how different engineering fields come
+							together in
+							order to create a functioning machine. Seeing how these different expertises are implemented
+							together may inspire
+							or spark interest in those who are considering engineering as a career path. This project
+							has the capability of
+							catching the eye of people from elementary school up to high school and beyond.
+
+						</p>
+
+						<header class="major">
+                        <h2>Design Goals</h2>
+                        </header>
+                        <ul>
+                            <li style="list-style-type: '✔'">Migrate Dashboard UI to Qt Creator for cross-compilation and faster testing</li>
+                            <li style="list-style-type: '✔'">Redesign Rear Axle and Chassis for increased structural rigidity</li>
+                            <li style="list-style-type: '✔'">Identify and eliminate mechanical play in the Steering Shaft</li>
+                            <li style="list-style-type: '✔'">Replace the Master Cylinder to ensure reliable braking performance</li>
+                            <li style="list-style-type: '✔'">Implement a robust wiring harness with integrated E-Stop and fuses</li>
+                            <li style="list-style-type: '✔'">Verify CAN communication between VESC controllers and Dashboard</li>
+                        </ul>
+
+
+
+					</div>
+					<!-- <span class="image"><img src="images/group-photo.jpg" alt="" /></span> -->
+				</div>
+			</section>
+
+			<!-- <img src="./images/group_photo.jpg"> -->
+			<!-- <span class="image"><img src="images/group-photo.jpg" alt="" /></span> -->
+
+
+			<!-- First Section -->
+			<section id="our-team" class="main special">
+				<header class="major">
+					<h2>Our Team</h2>
+				</header>
+				<ul class="features">
+					<li>
+						<center><span class="image"><img src="./images/Mohammed.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Mohammed Altarkait - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: Mechanical and Fabrication</b>
+						<p>Mohammed Altarkait is an Computer Engineering student graduating in December 2025.
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Paul.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Paul Brotelande - <a href="https://www.linkedin.com/in/paul-brotelande-64b744240/"
+								target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: Machine Learning and Website Maintenance</b>
+						<p>Paul Brotelande is an Computer Engineering student graduating in December 2025.
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Hoguer.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Hoguer Prieto Bustillos - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a>
+						</h3>
+						<b>Individual Focus: Go Kart UI and Integration</b>
+						<p> Hoguer Prieto Bustillos is an Computer Engineering student graduating in December 2025.
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Dillon.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Dillon Hinners - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: Drive Train, Machining and Fabrication</b>
+						<p>Dillon Hinners is an Electrical Engineering student graduating in December 2025.
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Nic.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Nic Delazzer - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: </b>
+						<p>Nic Delazzer is an Computer Engineering student graduating in May 2026.
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Kyle.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Kyle Blain - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus:</b>
+						<p>Kyle is an Electrical Engineering student graduating in May 2026.
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Gray.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Gray Woodson - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: Drive Train, Machining and Fabrication</b>
+						<p>Gray Woodson is an Mechanical Engineering student graduating in May 2026.
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Joshua.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Joshua Weisner - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: CAN communication, dashboard UI</b>
+						<p>Joshua Weisner is a Computer Engineering student graduating in December 2026.
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Dustin.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Dustin Dayer - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: Discs & Master Cylinder fix</b>
+						<p>Mehcanical Engineer
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Jacob.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3> Jacob Hansen - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: Steering Shaft Assembly Decision & Tie Rods  </b>
+						<p>Mechanical Engineer
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Connor.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Connor Bartnick - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: Axle, Frame, & Components, CAD</b>
+						<p>Mehcanical Engineer
+						</p>
+					</li>
+					<li>
+						<center><span class="image"><img src="./images/Ethan.jpg" class="team-member-image"
+									alt="" /></span></center>
+						<h3>Ethan Smith - <a href="" target="_blank"><i class="fab fa-linkedin"></i></a></h3>
+						<b>Individual Focus: Axle, Frame, & Components, CAD </b>
+						<p>Mechanical Engineer
+						</p>
+					</li>
+
+					<!-- The Next two <li></li> sections are here so Olivera and Doug are on their own line.-->
+
+
+					<li>
+						<!-- <span class="icon major style3 fa-copy"></span> -->
+						<h3>Olivera Notaros</h3>
+						<h5>Advisor</h5>
+					</li>
+					<li>
+						<!-- <span class="icon major style5 fa-gem"></span> -->
+						<h3>Doug Bartlett</h3>
+						<h5>Engineer in Residence</h5>
+					</li>
+					<li>
+						<h3>Charlie Potter
+							<h5>Engineer in Residence</h5>
+						</h3>
+
+					</ul>
+				</ul>
+			</section>
+
+
+
+			<section id="project-timeline" class="main special">
+                <header class="major">
+                    <h2>Project Timeline</h2>
+                </header>
+
+                <div class="timeline-controls">
+                    <button onclick="showTimeline(1)">Electrical Engineering</button>
+                    <button onclick="showTimeline(2)">Computer Engineering</button>
+                    <button onclick="showTimeline(3)">Mechanical Engineering</button>
+                </div>
+
+                <div class="timeline semester-1">
+                    <h3>Electrical Engineering Timeline (Spring 2026):</h3>
+                    <div class="table-wrapper">
+                        <table class="alt">
+                            <thead>
+                                <tr>
+                                    <th>Task</th>
+                                    <th>Date Range</th>
+                                    <th>Team Member</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Review existing schematics & research connectors</td>
+                                    <td>1/30 - 2/06</td>
+                                    <td>Mitchell, Kyle</td>
+                                </tr>
+                                <tr>
+                                    <td>Motor Testing & Characterization</td>
+                                    <td>2/06 - 2/20</td>
+                                    <td>EE Team</td>
+                                </tr>
+                                <tr>
+                                    <td>Safety Cutoff installation & Documentation</td>
+                                    <td>2/06 - 3/06</td>
+                                    <td>Mitchell</td>
+                                </tr>
+                                <tr>
+                                    <td>Wiring harness assembly & final connectors</td>
+                                    <td>2/13 - 3/13</td>
+                                    <td>Mitchell, Kyle</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="timeline semester-2" style="display:none;">
+                    <h3>Computer Engineering Timeline (Spring 2026):</h3>
+                    <div class="table-wrapper">
+                        <table class="alt">
+                            <thead>
+                                <tr>
+                                    <th>Task</th>
+                                    <th>Date Range</th>
+                                    <th>Team Member</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>Research QML, VESC, and CAN protocols</td>
+                                    <td>1/28 - 2/11</td>
+                                    <td>CpE Team</td>
+                                </tr>
+                                <tr>
+                                    <td>Configure VESC & Backend CAN communication</td>
+                                    <td>1/28 - 2/18</td>
+                                    <td>Joshua, Sam</td>
+                                </tr>
+                                <tr>
+                                    <td>Complete backend calculations & verify data</td>
+                                    <td>1/28 - 3/04</td>
+                                    <td>Nic, Sam</td>
+                                </tr>
+                                <tr>
+                                    <td>Integrate CAN with functional Dashboard buttons</td>
+                                    <td>2/18 - 3/01</td>
+                                    <td>Joshua</td>
+                                </tr>
+                                <tr>
+                                    <td>Update UI Visuals & Animations</td>
+                                    <td>3/04 - 3/25</td>
+                                    <td>CpE Team</td>
+                                </tr>
+                                <tr>
+                                    <td>Test bench verification & E-Days Prep</td>
+                                    <td>3/25 - 4/15</td>
+                                    <td>All</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+
+                <div class="timeline semester-3" style="display:none;">
+                    <h3>Mechanical Engineering Timeline (Spring 2026):</h3>
+                    <div class="table-wrapper">
+                        <table class="alt">
+                            <thead>
+                                <tr>
+                                    <th>Task</th>
+                                    <th>Date Range</th>
+                                    <th>Team Member</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>CAD Design: Rear Chassis & Axle Solutions</td>
+                                    <td>2/04 - 2/11</td>
+                                    <td>Ethan, Conner</td>
+                                </tr>
+                                <tr>
+                                    <td>Steering Shaft Assembly Decision & Tie Rods</td>
+                                    <td>2/04 - 2/20</td>
+                                    <td>Jacob</td>
+                                </tr>
+                                <tr>
+                                    <td>Weld Frame & Redesign Rear Chassis</td>
+                                    <td>2/11 - 2/25</td>
+                                    <td>Ethan</td>
+                                </tr>
+                                <tr>
+                                    <td>Brake System: Discs & Master Cylinder fix</td>
+                                    <td>2/09 - 3/18</td>
+                                    <td>Dustin</td>
+                                </tr>
+                                <tr>
+                                    <td>Final assembly: Axle, Frame, & Components</td>
+                                    <td>2/25 - 3/05</td>
+                                    <td>Ethan, Conner</td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </section>
+
+			<!-- Embedded JavaScript -->
+			<script>
+				function showTimeline(semester) {
+					// Hide all timelines
+					document.querySelectorAll('.timeline').forEach((timeline) => {
+						timeline.style.display = 'none';
+					});
+
+					// Show the chosen timeline
+					document.querySelector('.semester-' + semester).style.display = 'block';
+				}
+			</script>
+
+
+
+
+			<!-- Future Works Section -->
+			<section id="future-works" class="main special">
+				<header class="major">
+					<h2>Future Works</h2>
+				</header>
+				<ul class="features">
+					<li>
+						<h3>Add more to the dash</h3>
+						<p>Expand the dashboard functionality to display more real-time data and metrics.</p>
+					</li>
+					<li>
+						<h3>Integrate more with the autonomous vehicle</h3>
+						<p>Enhance integration with the autonomous vehicle systems for better control and data exchange.
+						</p>
+					</li>
+				</ul>
+
+				<h3>Spring 2026 Plans</h3>
+				<div class="table-wrapper">
+					<table class="alt">
+						<thead>
+							<tr>
+								<th>Discipline</th>
+								<th>Tasks / Goals</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td>Mechanical Engineering</td>
+								<td>
+									<ul>
+										<li>Final Assembly of Rear Axle</li>
+										<li>Completion of Brakes System</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>Electrical Engineering</td>
+								<td>
+									<ul>
+										<li>PCB Dashboard Design and Wiring</li>
+										<li>Test Bench analysis and system optimization</li>
+										<li>Install PCB in Dashboard</li>
+										<li>Robust wiring for controllers and battery system</li>
+										<li>E-Stop Installation</li>
+									</ul>
+								</td>
+							</tr>
+							<tr>
+								<td>Computer Engineering</td>
+								<td>
+									<ul>
+										<li>Develop visually appealing Dashboard graphics</li>
+										<li>Optimize performance for real-time data display</li>
+									</ul>
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+			</section>
+			<!-- Media Section -->
+			<section id="pictures" class="main special">
+				<header class="major">
+					<h2>Media</h2>
+				</header>
+				<!--
+									Example of how to impliment videos
+								<h3>Videos of Go-Kart Running:</h3>
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-6"><span class="image fit"><video width="262" controls><source src="images/go_kart_video.mp4" type="video/mp4"></video></span></div>
+										<div class="col-6"><span class="image fit"><video width="262" controls><source src="images/data_in_ui.mp4" type="video/mp4"></video></span></div>
+									</div>
+								</div>
+								-->
+				<h3>Pictures of Go-Kart:</h3>
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<div class="col-6"><span class="image fit"><img src="images/circuits.jpg" alt="" /></span> Motor
+							Controllers</div>
+						<div class="col-6"><span class="image fit"><img src="images/CompletedKart.jpg" alt="" /> Full
+								Build</span></div>
+					</div>
+				</div>
+
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<div class="col-6"><span class="image fit"><img src="images/rearISOseat.png" alt="" /></span>New
+							Go-Kart CAD model</div>
+						<div class="col-6"><span class="image fit"><img src="images/EKartUI_locked_adj.png"
+									alt="" /></span>Front display UI</div>
+					</div>
+				</div>
+
+				<h3>Video of Go-Kart:</h3>
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<div class="col-12"><span class="image fit"><video width="262" controls>
+									<source src="images/go_kart_video.mp4" type="video/mp4">
+								</video></span></div>
+					</div>
+				</div>
+				<!--
+									Example of how to get three pictures to a line
+								<div class="box alt">
+									<div class="row gtr-uniform">
+										<div class="col-4"><span class="image fit"><img src="images/nikola_doug_esc.jpg" alt="" /></span>Nikola and Doug working on the ESCs</div>
+										<div class="col-4"><span class="image fit"><img src="images/andie_ui.jpg" alt="" /></span>Andie showing off her UI</div>
+										<div class="col-4"><span class="image fit"><img src="images/apd_in_ekartui.jpg" alt="" /></span>APD demo running inside the EKart's UI</div>
+									</div>
+								</div>
+								-->
+				<h3>Picture of APD System In Action:</h3>
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<div class="col-12"><span class="image fit"><img src="images/apd_demo.jpg" alt="" /></span>
+						</div>
+					</div>
+				</div>
+			</section>
+
+			<!-- Documents Section -->
+			<section id="documents" class="main special">
+				<header class="major">
+					<h2>Documents</h2>
+				</header>
+				<div class="table-wrapper">
+					<table class="alt">
+						<thead>
+							<tr>
+								<th>File Name</th>
+								<th>Upload Date</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td><a href="./documents/GoKart plan.pdf" download>GoKart Project Plan</a></td>
+								<td>12/9/2025</td>
+							</tr>
+							<tr>
+								<td><a href="./documents/Spring2026.pdf" download>GoKart Project Plan</a></td>
+								<td>2/5/2026</td>
+							</tr>
+						</tbody>
+						<tfoot>
+							<tr>
+								<td colspan="2"></td>
+							</tr>
+						</tfoot>
+					</table>
+				</div>
+			</section>
+
+			<!-- Acknowledgements Section -->
+			<section id="acknowledgements" class="main special">
+				<header class="major">
+					<h2>Acknowledgements</h2>
+				</header>
+				<h3>Special thanks to our VIP students:</h3>
+				<p>Kaden Sandvik and Nate Heumann </p>
+			</section>
+
+			<!-- ECE Links Section -->
+			<section id="link" class="main special">
+				<!-- CSU ECE Banner -->
+				<div class="box alt">
+					<div class="row gtr-uniform">
+						<div class="col-4"></div>
+						<div class="col-4"><span class="image fit"><img src="images/Logo_ECE_dept_option_1.png"
+									alt="" /></span></div>
+						<div class="col-4"></div>
+					</div>
+				</div>
+
+				<footer class="major">
+					<ul class="actions special">
+						<li><a href="https://projects-web.engr.colostate.edu/ece-sr-design/AY24/GoKart/donation/"
+								class="button primary">Support Our Team</a></li>
+						<li><a href="https://www.engr.colostate.edu/ece/senior-design/" class="button primary">Other ECE
+								Projects</a></li>
+						<li><a href="http://www.engr.colostate.edu/ece/index.php" class="button primary">ECE
+								Department</a></li>
+						<li><a href="http://www.colostate.edu/" class="button primary">CSU Main Website</a></li>
+					</ul>
+				</footer>
+			</section>
+
+		</div>
+
+		<!-- Footer -->
+		<footer id="footer">
+			<p class="copyright">Design: <a href="https://html5up.net">HTML5 UP</a> - Stellar Template</p>
+		</footer>
+
+	</div>
+
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
