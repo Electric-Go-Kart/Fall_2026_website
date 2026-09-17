@@ -120,4 +120,26 @@
 			speed: 1000
 		});
 
+	// Autoplay video when the media section is scrolled into view.
+		var $mediaVideo = $('#media-video');
+
+		if ($mediaVideo.length > 0) {
+			var mediaVideo = $mediaVideo.get(0);
+
+			if ('IntersectionObserver' in window) {
+				var mediaObserver = new IntersectionObserver(function(entries) {
+					entries.forEach(function(entry) {
+						if (entry.isIntersecting) {
+							mediaVideo.play().catch(function() {});
+							mediaObserver.unobserve(mediaVideo);
+						}
+					});
+				}, { threshold: 0.35 });
+
+				mediaObserver.observe(mediaVideo);
+			} else {
+				mediaVideo.play().catch(function() {});
+			}
+		}
+
 })(jQuery);
